@@ -1,0 +1,68 @@
+
+import type { DesignStyle } from '../types';
+
+export const designStyles: DesignStyle[] = [
+  {
+    id: 'modern',
+    name: 'Modern',
+    description: 'Characterized by clean lines, simple color palettes, and the use of materials like metal, glass, and steel. Modern design employs a sense of simplicity in every element, including furniture. It\'s about uncluttered spaces and a lack of fuss or ornamentation.',
+    suitableFor: 'Clients who appreciate order, simplicity, and a clean, uncluttered aesthetic. Ideal for urban apartments and corporate offices.',
+    colorPalette: ['White', 'Black', 'Grey', 'Beige', 'Primary Colors (as accents)'],
+    materials: ['Metal (Steel, Chrome)', 'Glass', 'Plastic', 'Polished Wood'],
+    imageUrl: 'https://picsum.photos/seed/styleModern/800/600',
+  },
+  {
+    id: 'contemporary',
+    name: 'Contemporary',
+    description: 'Often confused with Modern, Contemporary design is more fluid and of the moment. It borrows elements from various styles but is defined by its simplicity, sophistication, and deliberate use of texture and clean lines. It features curved lines, whereas modern design does not.',
+    suitableFor: 'Those who want a space that is current, stylish, and comfortable, with a focus on form and uncluttered surfaces.',
+    colorPalette: ['Neutral (Brown, Taupe, Cream)', 'Monochromatic schemes', 'Bold accent colors'],
+    materials: ['Natural Fabrics (Silk, Wool, Linen)', 'Light Woods', 'Stone', 'Metal'],
+    imageUrl: 'https://picsum.photos/seed/styleContemporary/800/600',
+  },
+  {
+    id: 'minimalist',
+    name: 'Minimalist',
+    description: 'The minimalist concept takes modern design and simplifies it further. It’s about stripping everything down to its essential quality to achieve simplicity. The philosophy is "less is more." The focus is on functionality, light, and open space.',
+    suitableFor: 'Individuals who seek a serene, clutter-free, and highly organized environment. It promotes a sense of calm and focus.',
+    colorPalette: ['White', 'Light Grey', 'Soft Beige', 'Black'],
+    materials: ['Concrete', 'Light Wood', 'Glass', 'Linen', 'Metal'],
+    imageUrl: 'https://picsum.photos/seed/styleMinimalist/800/600',
+  },
+  {
+    id: 'luxury',
+    name: 'Luxury',
+    description: 'Luxury design is about creating an environment of bespoke elegance, comfort, and quality. It prioritizes high-end materials, custom craftsmanship, and meticulous attention to detail. It’s not just about what is seen, but what is felt—a sense of opulence and exclusivity.',
+    suitableFor: 'Clients with a discerning taste for quality, who desire a space that is both visually stunning and exceptionally comfortable.',
+    colorPalette: ['Deep Jewel Tones', 'Metallics (Gold, Silver, Brass)', 'Rich Creams', 'Charcoal'],
+    materials: ['Marble', 'Velvet', 'Silk', 'Exotic Woods', 'Crystal', 'High-end Metals'],
+    imageUrl: 'https://picsum.photos/seed/styleLuxury/800/600',
+  },
+  {
+    id: 'scandinavian',
+    name: 'Scandinavian',
+    description: 'Inspired by the simple life in Nordic countries, this style emphasizes clean lines, functionality, and a connection to nature. Spaces are light, airy, and feature a blend of textures and soft hues to create a cozy, inviting atmosphere (hygge).',
+    suitableFor: 'Those who love natural light, simplicity, and a cozy, comfortable, and functional living space.',
+    colorPalette: ['White', 'Pastels', 'Light Grey', 'Natural Wood Tones'],
+    materials: ['Light Woods (Beech, Ash, Pine)', 'Wool', 'Felt', 'Leather', 'Ceramics'],
+    imageUrl: 'https://picsum.photos/seed/styleScandinavian/800/600',
+  },
+  {
+    id: 'indian-traditional',
+    name: 'Indian Traditional',
+    description: 'A celebration of India\'s rich cultural heritage, this style is characterized by intricate carvings, vibrant colors, and handcrafted details. It often incorporates elements like swings (jhulas), low seating, and traditional motifs. It’s warm, inviting, and full of stories.',
+    suitableFor: 'Clients who want to connect with their roots and desire a home that is rich in culture, color, and craftsmanship.',
+    colorPalette: ['Warm Earthy Tones', 'Jewel Tones (Saffron, Ruby, Emerald)', 'Vibrant Hues'],
+    materials: ['Solid Woods (Teak, Rosewood)', 'Brass', 'Silk', 'Cotton', 'Terracotta'],
+    imageUrl: 'https://picsum.photos/seed/styleIndian/800/600',
+  },
+  {
+    id: 'bohemian',
+    name: 'Bohemian',
+    description: 'A relaxed, eclectic, and unconventional style that reflects a nomadic and artistic lifestyle. It’s about mixing patterns, textures, and colors from around the world. The look is layered, personal, and carefree, with a focus on vintage finds and handmade items.',
+    suitableFor: 'Free spirits, artists, and travelers who want their home to be a personal sanctuary filled with memories and collected treasures.',
+    colorPalette: ['Rich and Saturated Colors', 'Earthy Tones', 'Metallics'],
+    materials: ['Rattan', 'Macrame', 'Distressed Wood', 'Varied Textiles', 'Leather'],
+    imageUrl: 'https://picsum.photos/seed/styleBohemian/800/600',
+  },
+];
